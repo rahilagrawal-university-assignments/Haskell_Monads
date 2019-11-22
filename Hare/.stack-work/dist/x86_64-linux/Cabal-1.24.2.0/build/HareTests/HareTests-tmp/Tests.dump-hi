@@ -1,0 +1,824 @@
+
+==================== FINAL INTERFACE ====================
+2019-08-04 10:22:40.763229 UTC
+
+interface main@main:Main 8002
+  interface hash: 8e045d58d16330e5d412bc3b0c1b1d9d
+  ABI hash: db9e48df433c1d26a52ebe5824c177a7
+  export-list hash: bcda2b71ad42a5ecdeec42d64db941e4
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: ea1d49b29055c7c7900248b3ac9c61a0
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+  Main.tests
+module dependencies: Hare HareMonad Tests.Examples Tests.Support
+                     Tests.Transcript Tests.UnitTests
+package dependencies: QuickCheck-2.9.2@QuickCheck-2.9.2-LvlomhGMxrFBkX1zwiWpQu
+                      ansi-terminal-0.6.3.1@ansi-terminal-0.6.3.1-3RTqikoQf47ajVD9m8zgB
+                      ansi-wl-pprint-0.6.7.3@ansi-wl-pprint-0.6.7.3-A79v826bgPr574HtaZPPqC
+                      array-0.5.1.1@array-0.5.1.1
+                      async-2.1.1.1@async-2.1.1.1-8yywY4inVGRLJSCg60gBXj base-4.9.1.0
+                      binary-0.8.3.0@binary-0.8.3.0
+                      bytestring-0.10.8.1@bytestring-0.10.8.1
+                      clock-0.7.2@clock-0.7.2-8dRNleB7rysIZAOReuhpZA
+                      containers-0.5.7.1@containers-0.5.7.1
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-boot-th-8.0.2@ghc-boot-th-8.0.2
+                      ghc-prim-0.5.0.0 integer-gmp-1.0.0.1
+                      mtl-2.2.1@mtl-2.2.1-BLKBelFsPB3BoFeSWSOYj6
+                      optparse-applicative-0.13.2.0@optparse-applicative-0.13.2.0-EqIYOWOFTvf23sT5QTYn9U
+                      parsec-3.1.11@parsec-3.1.11-1aqiimsgq2dCv7eoaC8WuX
+                      pretty-1.1.3.3@pretty-1.1.3.3
+                      primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh
+                      process-1.4.3.0@process-1.4.3.0
+                      random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog
+                      regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa
+                      regex-tdfa-1.2.2@regex-tdfa-1.2.2-CuFri6F1SLwFkkN6cPEwX5
+                      stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve
+                      tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt
+                      tasty-0.11.3@tasty-0.11.3-70FgRohyKVSBrTVBDiKym5
+                      tasty-hunit-0.9.2@tasty-hunit-0.9.2-Rlwyh85h61dqrsDptS53
+                      tasty-quickcheck-0.8.4@tasty-quickcheck-0.8.4-6yX5MsaPsBs85Fll2R9pO0
+                      template-haskell-2.11.1.0
+                      text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00
+                      tf-random-0.5@tf-random-0.5-CJZw1ZWS5MOJlR60HqKEZL
+                      time-1.6.0.1@time-1.6.0.1 transformers-0.5.2.0@transformers-0.5.2.0
+                      unbounded-delays-0.1.1.0@unbounded-delays-0.1.1.0-8pvOsE97fmS7WDAN5vUbqX
+                      unix-2.7.2.1@unix-2.7.2.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         binary-0.8.3.0@binary-0.8.3.0:Data.Binary.Generic
+         bytestring-0.10.8.1@bytestring-0.10.8.1:Data.ByteString.Builder
+         regex-base-0.93.2@regex-base-0.93.2-AYjYAsBidAc8f5XNm9b2Aa:Text.Regex.Base.Context
+         regex-tdfa-1.2.2@regex-tdfa-1.2.2-CuFri6F1SLwFkkN6cPEwX5:Text.Regex.TDFA.ByteString
+         regex-tdfa-1.2.2@regex-tdfa-1.2.2-CuFri6F1SLwFkkN6cPEwX5:Text.Regex.TDFA.ByteString.Lazy
+         regex-tdfa-1.2.2@regex-tdfa-1.2.2-CuFri6F1SLwFkkN6cPEwX5:Text.Regex.TDFA.Sequence
+         regex-tdfa-1.2.2@regex-tdfa-1.2.2-CuFri6F1SLwFkkN6cPEwX5:Text.Regex.TDFA.String
+         stm-2.4.4.1@stm-2.4.4.1-JQn4hNPyYjP5m9AcbI88Ve:Control.Monad.STM
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Show
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+         transformers-0.5.2.0@transformers-0.5.2.0:Control.Monad.Trans.Error
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+                         clock-0.7.2@clock-0.7.2-8dRNleB7rysIZAOReuhpZA:System.Clock
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntMap.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.IntSet.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Map.Base
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Sequence
+                         containers-0.5.7.1@containers-0.5.7.1:Data.Set.Base
+                         ghc-boot-th-8.0.2@ghc-boot-th-8.0.2:GHC.LanguageExtensions.Type
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.Annotated.HughesPJ
+                         pretty-1.1.3.3@pretty-1.1.3.3:Text.PrettyPrint.HughesPJ
+                         primitive-0.6.2.0@primitive-0.6.2.0-4578caNkWQ54Gt1mxLF2Yh:Control.Monad.Primitive
+                         tagged-0.8.5@tagged-0.8.5-1mTloBSoUxv8dqUr8XBGBt:Data.Tagged
+                         tasty-0.11.3@tasty-0.11.3-70FgRohyKVSBrTVBDiKym5:Test.Tasty.Core
+                         template-haskell-2.11.1.0:Language.Haskell.TH.Syntax
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text
+                         text-1.2.2.2@text-1.2.2.2-9UQZjEJZQFSGMffj1Z5g00:Data.Text.Lazy
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  Tests.Examples 37212682bd2fcd16c9c02fdfd9f67fb0
+  exports: cc213eff985c86fd7ea3ade47fd6b5c2
+  test_action_ex_1 142e802ad9b15f4094f647db511593b4
+  test_action_ex_2 12613cb618ee8602e5c94b3b53ab49d7
+  test_action_ex_3 96b934c7db5c1e78722804418753c133
+  test_choose_ex_1 b2021db4a964770a34ba8d95d26e6b28
+  test_choose_ex_2 ca0177667e32b62c0643759852d24914
+  test_cons_ex_1 6ec1b183d22d73ca9505f5b79130fd6e
+  test_cons_ex_2 1184f4b8359993e92836abbf17bdf9e3
+  test_option_ex_1 1c702fab03c577b10fcab0838a6d71f5
+  test_option_ex_2 e75169a61fddd83e8413dd519cbc92d2
+  test_plus_ex_1 4c9d6f7d47fae4dfc5f495765267795c
+  test_plus_ex_2 3aff322383ebb6cc92867b937282040a
+  test_rptRange_ex_1 e9e31dbd702efb3d04b20f8fa3c86cfe
+  test_rptRange_ex_2 f34cf0bc026dd4bac50075d24cccba54
+  test_rpt_ex_1 8dfdb849067fab5adcc3eb31e49c6b38
+  test_rpt_ex_2 c3354e75074c70cec8740f363fcc95a6
+  test_string_ex_1 8e133544ec7a3829a67640906111d655
+  test_string_ex_2 45e98778153da4d4621f91eed98f2bbc
+import  -/  Tests.Transcript 7d588b798767ea443ee514de569fa1d4
+  exports: 320cb2144b67cf9fe1af07b49645e96b
+  test_courseCodes 9e73a8813dc6575abbce65d8ab2f3ea8
+  test_courseCodesRaw 3af482433ce029238210517f448388d5
+  test_decimalNumber afa259af69e340c47a7d6e6f08d74761
+  test_empty b868d70807d88c537a53f93714defdad
+  test_fail ad83563e1ce9ca40d649e3edda784b36
+  test_firstname e5ae1f196ccee430e406453cc35f6e63
+  test_gradeRecords 527ec9411b7de8ec1de0e65655ea636c
+  test_grades 43bfa2f51b1c3a462a669511df42765e
+  test_gradesAlt 3a7ec7ee75226523d506fbcac315d290
+  test_stars e42ea13554d1d2be8509d2634a52701a
+  test_studentNumber 7e71f7c36334035f56ac790bc8858da3
+  test_tortoiseCourseCodes 79701306e56aac7be889f601b76ae326
+import  -/  Tests.UnitTests f938176812b6ec968561ac411336219d
+  exports: 3daa4523bd99fa2d8034f9248244585b
+  test_ch_1 da34e96f8ce4ced61268aa10a558879f
+  test_ch_2 abd71dc2bef71a5def7c21e2e4ce3be3
+  test_ch_3 dff4f9cd939f850a2076b7dad335782f
+  test_ch_4 b96df43c899e5ff9eba6c897adaad4a6
+  test_ch_5 7e1d11e2ddece67fd45f4746113e2994
+  test_char_filter 294e3e0866970f878d39fae03c8e45b0
+  test_char_maybe 5c1e171d7488f0783b284d4da692539b
+  test_empty_list 6a62ff43c9d210a618f87ea13b5e4f09
+  test_empty_maybe 0cdd08636495183a85e08e8b419fc379
+  test_fail_list 918a89390783a7967c4f18521f9058dc
+  test_fail_maybe 81e9f95d48dbf4b8da8699392864200a
+  test_seq_1 2d8a6597403570e9281ec540cb0dad10
+  test_seq_2 99ada22e1fdeb3709599f8c4d0d8ca09
+  test_seq_3 4d27f1307dd81aba6ef153212ec276df
+  test_seq_4 d5377dd8218b53d174a28ab596934449
+  test_seq_5 d88cf3cc7cfdc2cb677e792a6680b35b
+  test_star_1 7d2476fb077017934e567f0dbaf16a06
+  test_star_2 9935956db9512dc49115e53bc3894d3a
+  test_star_3 9ab648fe5601198623d261222dd34888
+import  -/  tasty-0.11.3@tasty-0.11.3-70FgRohyKVSBrTVBDiKym5:Test.Tasty ad59ab4cb2f580195ee268ab7305c5ed
+import  -/  tasty-0.11.3@tasty-0.11.3-70FgRohyKVSBrTVBDiKym5:Test.Tasty.Core 6375ccdbe9fbac961c722e0cbef3ef09
+d6831ef04cb9301b090dfae6f7bb7ec7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule2 Main.$trModule1) -}
+847d9fc3b8e6f0b424199f36b4999bb2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Main"#) -}
+24ef6042833e75ffd7aa98b83ecca98d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+0790143c46b39b27fbbbfe715fd0408f
+  main :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+8dc12c09867ab9a2e3591599e8ed2c3c
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (Test.Tasty.CmdLine.defaultMainWithIngredients1
+                   Test.Tasty.defaultIngredients
+                   Main.tests) -}
+82d430a4f86f5966440df2080136b35a
+  main2 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+f40a2133d24d1331c4dbfaa08064e725
+  tests :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests110 Main.tests1) -}
+1e84bc7237eac3dd07503e46cfb16c37
+  tests1 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests86
+                   Main.tests2) -}
+3566f97b04d9cf4690cabc511a739706
+  tests10 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests21
+                   Main.tests11) -}
+606c5e698a75021aaf87c22ed3829239
+  tests100 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_grades
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+bb5678cb59dee8b725f561700cd5066d
+  tests101 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "action tests"#) -}
+36321c18dc78659c85a1d85f943b3be5
+  tests102 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup
+                   Main.tests108
+                   Main.tests103) -}
+9ff8820ab760ed7b57fd897d8a5cc906
+  tests103 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_empty
+                   Main.tests104) -}
+7ab079670e72dcf9b4ba47cf4250a390
+  tests104 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_fail
+                   Main.tests105) -}
+ae011a5e9f26f8d510fea467c0e2efab
+  tests105 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_courseCodesRaw
+                   Main.tests106) -}
+808ef5da1faa3c4407037520e1c3cf73
+  tests106 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_grades
+                   Main.tests107) -}
+b66e08606348d8b9ca9c87a0717f8b0f
+  tests107 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_firstname
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+92e6a4210b6d94b47e099c40c3ccee62
+  tests108 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "basic match tests"#) -}
+d7925b1fc37489a59a73996583b00cc5
+  tests109 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "transcript acceptance tests"#) -}
+de4fdba2da7975c60fb8cf2fce662c89
+  tests11 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests17
+                   Main.tests12) -}
+8fce2e84db7f7e65cce654bc5811975a
+  tests110 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "all tests"#) -}
+b0c4369cf61095ea112b2bbe7c2efd42
+  tests12 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests13
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+9118bc40f10403ba403353584d8002cc
+  tests13 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests16 Main.tests14) -}
+cb9df7106ef4ecd7ea00d685e0843139
+  tests14 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_rptRange_ex_1
+                   Main.tests15) -}
+b4ef974da6b5566766f1328e41fa62aa
+  tests15 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_rptRange_ex_2
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+7d270fc01ed304a16b84d0e045f596b9
+  tests16 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "rptRange"#) -}
+faf3ea263bf667520db1f3a5b24b352e
+  tests17 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests20 Main.tests18) -}
+2eb4235b2a9860a41f1680efe7560eae
+  tests18 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_rpt_ex_1
+                   Main.tests19) -}
+35c10170c3d4b7a2e3e64263f915854f
+  tests19 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_rpt_ex_2
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+9127bddae56f92b1a5d589c80e445737
+  tests2 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests47
+                   Main.tests3) -}
+51b3276a0bb91c01defc454e38a73c9c
+  tests20 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "rpt"#) -}
+7fb42d90e1ea8233dfcdfeaa709fb380
+  tests21 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests24 Main.tests22) -}
+739c9feb7e2df8237172278d75c6e3d7
+  tests22 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_option_ex_1
+                   Main.tests23) -}
+418f966fe2474958bd66e5747c1184a4
+  tests23 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_option_ex_2
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+0aabd77fe8e00acc57b9533999e92525
+  tests24 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "option"#) -}
+bae1ba14e91934c18a491c6387dc9df6
+  tests25 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests28 Main.tests26) -}
+a94515c45fe68b38d625f887f387093d
+  tests26 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_choose_ex_1
+                   Main.tests27) -}
+97962e293dd372fb4d90acb90a649c56
+  tests27 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_choose_ex_2
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+a0ee3492838b10cbb94bdaed687ca0fc
+  tests28 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "choose"#) -}
+436f97a3336096bbfb4e56d8f07d148a
+  tests29 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests32 Main.tests30) -}
+6dc1b443ba14812757b56e76c06665d5
+  tests3 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests4
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+eac150f9ef6c1ea5a56c59951c20a3fd
+  tests30 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_string_ex_1
+                   Main.tests31) -}
+31f86066688c95516cfd52ca36625324
+  tests31 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_string_ex_2
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+f0e91a3bd186fa41e693dd94fdd6dec7
+  tests32 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "string"#) -}
+bdb61b16acf80273d09041d94e866d96
+  tests33 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests36 Main.tests34) -}
+f97f01e7383b01e8c51b5156225d3560
+  tests34 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_plus_ex_1
+                   Main.tests35) -}
+49f5207f8bf6219ee31497f93b0665ef
+  tests35 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_plus_ex_2
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+33d9fa7b8fed93e980f7be5da09d0b2f
+  tests36 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "plus"#) -}
+64a81c007db5af24836dbb2bfde5a5e9
+  tests37 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests40 Main.tests38) -}
+5133f18706eab82641ec3baf28dbe035
+  tests38 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_cons_ex_1
+                   Main.tests39) -}
+c774bab48f57d3ba9731be2b249cdbf9
+  tests39 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_cons_ex_2
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+303402eeb50cab1da77f52a8e88f2b31
+  tests4 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests46 Main.tests5) -}
+5bc084b295626cdd8cd87a9caa9629d6
+  tests40 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "cons"#) -}
+24ea592f716f34751ed98de3901c6a50
+  tests41 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests45 Main.tests42) -}
+3b6389f446c20758494a09e9f635b4a2
+  tests42 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_action_ex_1
+                   Main.tests43) -}
+89118e685553a0c836c9d56e7eae094d
+  tests43 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_action_ex_2
+                   Main.tests44) -}
+decd5178ca986c99d32725f0d3f950ac
+  tests44 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Examples.test_action_ex_3
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+bd6c830b7394481ce02c1853ccc9eab7
+  tests45 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "action"#) -}
+843e0dceaf16527f92bffc7df1416bde
+  tests46 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "spec examples"#) -}
+90bafd94e2235e4c6b62141e627de78d
+  tests47 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests85 Main.tests48) -}
+1acdede62fa70d8dfc642666e95e1bb3
+  tests48 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests81
+                   Main.tests49) -}
+b0ebeae0c8c298bde4b269fa72268bbc
+  tests49 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests77
+                   Main.tests50) -}
+abda98bdf907966e21112e176a64b84b
+  tests5 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests41
+                   Main.tests6) -}
+1f528513b6400090f9cf7ec25b8b9e74
+  tests50 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests73
+                   Main.tests51) -}
+4508e4e2e945f68cdaff43ec3d504536
+  tests51 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests66
+                   Main.tests52) -}
+ad1975178043af1e0c8c87aa478cad37
+  tests52 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests59
+                   Main.tests53) -}
+697dd6705a6c4c1307d849f2c2b8303a
+  tests53 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests54
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+0bbac295f05363159ff2353f2d610ed1
+  tests54 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests58 Main.tests55) -}
+309354de5ba2701ad75e24501a65e060
+  tests55 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_star_1
+                   Main.tests56) -}
+8688d52a95b8501189f0652a87889b34
+  tests56 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_star_2
+                   Main.tests57) -}
+8a48990038a14357383992de19d09ab0
+  tests57 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_star_3
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+8de4cc5f62672134fd7283546c1c0bd9
+  tests58 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "star"#) -}
+c65406fae37e83266b311e93ef2664e6
+  tests59 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests65 Main.tests60) -}
+04b616efe06b1a6716ed6cdbf6e815aa
+  tests6 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests37
+                   Main.tests7) -}
+1bc7352860d9096ba50669e59e99369e
+  tests60 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_ch_1
+                   Main.tests61) -}
+e5f36307be23ce313f84136f4ae5163e
+  tests61 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_ch_2
+                   Main.tests62) -}
+31ad9e9085c336887d787a328bcbe497
+  tests62 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_ch_3
+                   Main.tests63) -}
+a6beaf5a9b32cb70b6820ed7571e465a
+  tests63 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_ch_4
+                   Main.tests64) -}
+98c94a9790ddb260d015b7b3f5a39138
+  tests64 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_ch_5
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+94da1a0410b938b41cdb5f855d5380e1
+  tests65 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "cho"#) -}
+d2fd8227db3706d3d2d196c4af1828f6
+  tests66 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests72 Main.tests67) -}
+cdc5e7875cb0debc403b541eeaa457f2
+  tests67 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_seq_1
+                   Main.tests68) -}
+6a70efb2fbcb384f168e386ac824e701
+  tests68 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_seq_2
+                   Main.tests69) -}
+9b7f747be1f37f01824f0b3db8b87142
+  tests69 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_seq_3
+                   Main.tests70) -}
+ac7746276b45a8acb0aedde713a5bc6f
+  tests7 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests33
+                   Main.tests8) -}
+2f2a9cb80985a065f8a82c05a7144d14
+  tests70 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_seq_4
+                   Main.tests71) -}
+bc5de357f22d35df4407e097269eb330
+  tests71 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_seq_5
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+bdd718dcaedabf82f40949579cf87e9b
+  tests72 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "seq"#) -}
+9f2f059e196dc9f2a70b2c599bd96a87
+  tests73 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests76 Main.tests74) -}
+5d957b59dcc35b754aa4c0befb2e561c
+  tests74 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_char_filter
+                   Main.tests75) -}
+4151697e02f80e9c6dfa389baac1facf
+  tests75 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_char_maybe
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+b3da1c866212b0a5e8db87235412c6a0
+  tests76 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "char"#) -}
+c308cd06f79a83b812bb8ea7c3016626
+  tests77 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests80 Main.tests78) -}
+7ed600ab0d7eb867db97dfe84a77ccc5
+  tests78 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_fail_maybe
+                   Main.tests79) -}
+cf3acad2006dc29b023cb604a0c68787
+  tests79 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_fail_list
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+6ce8ab32226ccd9a8a89ce22b6fc8c00
+  tests8 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests29
+                   Main.tests9) -}
+fbf75bfc7fa9de1f36040ec5ba18e011
+  tests80 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "fail"#) -}
+1f06229ddb137f5b3b2b9f29d4b4546b
+  tests81 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests84 Main.tests82) -}
+59cb489c5747dfa42cf04ba6bf4cd9b6
+  tests82 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_empty_maybe
+                   Main.tests83) -}
+4e73310870b60adf264af508af74fdb7
+  tests83 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.UnitTests.test_empty_list
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+33c507cc438c131ecea65069e8dd2729
+  tests84 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "empty"#) -}
+9321b2e74b52b809747b3f41655dfa82
+  tests85 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   "unit tests and properties"#) -}
+efd959f083444e5a33b7a5735ed5239b
+  tests86 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup
+                   Main.tests109
+                   Main.tests87) -}
+7f944d3eadc2d85e4fe081b6843f2ccd
+  tests87 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests102
+                   Main.tests88) -}
+ac615a4bae477a1f14850fb362adec2c
+  tests88 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests98
+                   Main.tests89) -}
+f3167474ff29a51763c9e898ba17a105
+  tests89 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests90
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+9ecdd67225e5944994b255fb8de40ccd
+  tests9 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Main.tests25
+                   Main.tests10) -}
+980370a0fe47855b0d10526ae8cf3d40
+  tests90 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup Main.tests97 Main.tests91) -}
+1d94bdff8af44bff7969c55fdb5db86d
+  tests91 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_decimalNumber
+                   Main.tests92) -}
+2ea5eb12a1888a53f2c3a8c972b772dc
+  tests92 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_gradeRecords
+                   Main.tests93) -}
+d7e39887fb81e915565ee6055bcb6fbb
+  tests93 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_tortoiseCourseCodes
+                   Main.tests94) -}
+9e1b5fb3b285a6d71342ffca6006b029
+  tests94 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_gradesAlt
+                   Main.tests95) -}
+efe9ec5f1a93a0c74af37155544769ee
+  tests95 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_studentNumber
+                   Main.tests96) -}
+c428a1f6f9ebbe6b68763ee3c6ad7a03
+  tests96 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_stars
+                   (GHC.Types.[] @ Test.Tasty.Core.TestTree)) -}
+7cd425600984b3b4f4b93e335ecb6311
+  tests97 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# "combinator tests"#) -}
+e002c35a9b31eb462305edc60441ca32
+  tests98 :: Test.Tasty.Core.TestTree
+  {- Strictness: m2,
+     Unfolding: (Test.Tasty.Core.TestGroup
+                   Main.tests101
+                   Main.tests99) -}
+824ec6204a8f3f498b1173a2bf5a587a
+  tests99 :: [Test.Tasty.Core.TestTree]
+  {- Strictness: m2,
+     Unfolding: (GHC.Types.:
+                   @ Test.Tasty.Core.TestTree
+                   Tests.Transcript.test_courseCodes
+                   Main.tests100) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: none
+require own pkg trusted: False
+
